@@ -1,17 +1,19 @@
 dd 1
+gui 1 1
 h 1
 ha 2
 haha 13
 hahaha 1
-haxi 11
+haxi 13
 ji 1
 jiushi 2
 qiong 1
 qiongji 1
 sheng 1
-shenme 2
+shenme 4
+shenmegui 1
 shi 1
 xi 1
 yi 1
 yisheng 1
-哈希 1
+yyaf 1
