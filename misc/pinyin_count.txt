@@ -1,6 +1,8 @@
 dd 1
-ha 1
-haha 1
+h 1
+ha 2
+haha 13
+hahaha 1
 haxi 11
 ji 1
 jiushi 2
