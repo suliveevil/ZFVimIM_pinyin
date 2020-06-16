@@ -5,7 +5,7 @@ function! s:dbInit()
     let dbCountFile = '/misc/pinyin_count.txt'
 
     let db = ZFVimIM_dbInit({
-                \   'name' : 'pinyin',
+                \   'name' : 'zh_CN',
                 \ })
 
 
@@ -14,7 +14,7 @@ function! s:dbInit()
                 \   'repoPath' : repoPath,
                 \   'dbFile' : dbFile,
                 \   'dbCountFile' : dbCountFile,
-                \   'dbId' : db['2e43daf6-afc6-11ea-96b3-ed9423891c80'],
+                \   'dbId' : db['dbId'],
                 \ })
             
 endfunction
