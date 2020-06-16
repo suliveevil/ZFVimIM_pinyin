@@ -5,17 +5,18 @@ function! s:dbInit()
     let dbCountFile = '/misc/pinyin_count.txt'
 
     let db = ZFVimIM_dbInit({
-                \   'name' : 'pinyin',
+                \   'name' : 'zh_CN',
                 \ })
+
+
     call ZFVimIM_cloudRegister({
+                \   'mode' : 'local',
                 \   'repoPath' : repoPath,
                 \   'dbFile' : dbFile,
                 \   'dbCountFile' : dbCountFile,
-                \   'gitUserEmail' : get(g:, 'ZFVimIM_pinyin_gitUserEmail', get(g:, 'zf_git_user_email', '')),
-                \   'gitUserName' : get(g:, 'ZFVimIM_pinyin_gitUserName', get(g:, 'zf_git_user_name', '')),
-                \   'gitUserToken' : get(g:, 'ZFVimIM_pinyin_gitUserToken', get(g:, 'zf_git_user_token', '')),
                 \   'dbId' : db['dbId'],
                 \ })
+            
 endfunction
 
 augroup ZFVimIM_pinyin_augroup
