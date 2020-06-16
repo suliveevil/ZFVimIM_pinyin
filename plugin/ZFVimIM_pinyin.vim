@@ -1,7 +1,10 @@
 let s:repoPath=expand('<sfile>:p:h:h')
-let g:ZFVimIM_cloudSync_enable=1
+
+" local
+let g:ZFVimIM_cloudSync_enable=0
+" git
+" let g:ZFVimIM_cloudSync_enable=1
 let g:ZFVimIM_cloudAsync_autoInit=1
-let g:ZFVimIM_cloudAsync_enable=5000
 let g:ZFVimIM_cloudAsync_timeout=30000
 function! s:dbInit()
     let repoPath = s:repoPath
